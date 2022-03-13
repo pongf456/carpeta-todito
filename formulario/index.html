@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 class="title">¿Qué te parece la página?</h1>
+
+    <div class="formulario">
+    <form action="registro.php" method="post">
+        <input type="text" name="nombre" id=""  maxlength="20" placeholder="Tu nombre" class="name">
+        <input type="text" name="opinion" id=""  placeholder="Tu opinion sobre el tema" class="coment" maxlength="100">
+        <input type="submit" value="Verificar" class="enviar" onclick="guardado()">
+    </form>
+</div>
+<div class="recientes">
+  
+
+</div>
+<script>
+function request () {
+  fetch('comentarios.txt')
+  .then(response => response.text())
+  .then(text => {
+    console.log(text);
+     document.querySelector('.recientes').innerHTML = `${text}`
+
+   
+  })
+}
+setInterval(request,1000)
+
+</script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+body {
+    background-image: url(fondodpt.jpg);
+}
+.chat {
+    width: 70vw;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    display: flex;
+    border-bottom: solid 3px brown;
+    margin: 10vh 15vw 3px;
+    box-sizing:border-box;
+    padding: 2%;
+    background-image: url(fondodpt.jpg);
+    height: 80vh;
+}
+.ctp {
+    display: flex;
+    width: 100%;
+}
+.chei {
+    width: 70%;
+    overflow-y: hidden;
+    display: inline-block;
+    height: 100%;
+    
+    box-sizing:border-box;
+    margin: 0 1%;
+    background-image: linear-gradient(to right, #33146b, #081f5d);
+}
+.entrantes {
+    border-top: solid 3px brown;
+    display: inline-block;
+    padding: 3%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    background-image: linear-gradient(to bottom,#3e67d6,#583cb4 );
+}
+.imag {
+    width: 10%;
+    display: inline-block;
+     border-radius: 50%;
+    height: 10%;
+}
+.logof {
+    border: solid 3px rgb(40, 27, 53);
+    border-radius: 50%;
+    width: 100%;
+}
+.contc {
+    width: 70%;
+    display: inline-block;
+}
+.user {
+    border-radius: .4vw;
+    font-size: 1.3vw;
+    font-weight: 600;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 2%;
+    text-decoration: underline 3px rgba(119, 22, 22, 0.603);
+    margin: 0 4%;
+    background-color: rgb(77, 138, 207);
+}
+.message{
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: rgb(54, 130, 216);
+    font-family: monospace;
+    display: inline-block;
+    padding: 1%;
+    max-width: 120%;
+    border-radius: .5vw;
+    word-wrap: break-word;
+    color: white;
+}
+.amgs {
+    display: inline-block;
+    width: 29%;
+    box-sizing:border-box;
+    padding: 1% 3%;
+    height: 100%;
+    border: inset 4px blueviolet;
+    border-right: solid 3px rgb(89, 42, 165);
+    background-image: linear-gradient(to bottom, rgb(54, 78, 216), rgb(13, 41, 163));
+}
+.escribir{
+    display: inline-block;
+    background-color: #3f3dc0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    height: 20.7%;
+}
+#texto:focus {
+    outline: none;
+}
+#texto {
+    border: solid 2px blue;
+    margin: 0 10%;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-color: #615fd3;
+    font-size: 1.1vw;
+    width: 50%;
+    height: 60%;
+}
+#enviar {
+    border: solid 2px blue;
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+    background-color: #2252d6;
+    font-size: 1vw;
+    width: 14%;
+    border-bottom-right-radius: 1vw;
+    height: 40%;
+}
+.listado{
+    display: flex;
+    margin: 3% 0;
+    width: 100%;
+    height: 10%;
+}
+.fotoa {
+    border: solid 1px rgb(255, 128, 128);
+    margin: 1% 12% 1% 0;
+    width: 20%;
+}
+.noa{
+    background-color: #615fd3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    border: solid 2px rgba(255, 4, 4, 0.431);
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 4%;
+    width: 50%;
+    transition: background-color .2s;
+    height: 60%;
+}
+.noa:hover {
+    background-color: #43419b;
+}
+.addF {
+    width: 40vw;
+    height: 4vw;
+    min-height: 30px;
+    margin: 0 25vw;
+    box-sizing: border-box;
+    padding: 1%;
+    border: solid 3px #583cb4;
+    background-color: #3e67d6;
+}
+#amga {
+    text-align: center;
+    width: 25vw;
+    font-size: 1vw;
+    color: white;
+    height: 2vw;
+    background-color: #a98df7;
+    border: solid 1 px blueviolet;
+}
+#amga:focus {
+    outline: none;
+}
+#amga::placeholder{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 1vw;
+}
+#add {
+    margin: 0 0 0 3%;
+    background-color: #6f6de6;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: monospace;
+    color: white;
+    border: solid 2px rgb(123, 104, 209);
+    width: 20%;
+    height: 2vw;
+    transition: background-color .4s;
+}
+#add:hover {
+    background-color: #4c4ac8;
+}
+@media screen and (max-width: 800px) {
+    .chat {
+        width: 70vw;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+        display: flex;
+        border-bottom: solid 3px brown;
+        margin: 10vh 15vw;
+        box-sizing:border-box;
+        padding: 2%;
+        background-image: url(fondodpt.jpg);
+        height: 50vw;
+    }
+}

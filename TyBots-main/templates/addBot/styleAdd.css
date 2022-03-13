@@ -1,0 +1,126 @@
+section .title{
+    position:fixed;
+    text-align:center;
+    right:40%;
+font-size: 80px;
+color: var(--text-color)
+}
+body.dark textarea{ 
+        background-color: #3a3b3c;
+        width:500px;
+        border:1.5px solid var(--text-color);
+        transition: 0.07s ease;
+        color:white;
+        border-radius: 3px;
+    }
+
+
+body.dark input{
+    border-radius: 3px;
+    border:1.5px solid var(--text-color);
+    width:500px;
+    height:30px;
+    background-color: #3a3b3c;
+    color:white;
+    transition: 0.07s ease;
+}
+
+input{
+    text-align: center;
+    border-radius: 3px;
+    border:1.5px solid var(--text-color);
+    width:500px;
+    height:30px;
+    transition: 0.07s ease;
+    position: relative;
+}
+input:focus{
+border:2px solid rgb(132, 0, 255);
+outline: none
+}
+textarea{
+    position:relative;
+    width: 500px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1.5px solid var(--text-color);
+    transition: 0.07s ease;
+}
+textarea:focus{
+    border:2px solid rgb(132, 0, 255);
+    outline: none;
+}
+.addBot-btn{
+    font-family:'calibri';
+    font-size:30px;
+    cursor:pointer;
+    width:400px;
+    max-width:500px;
+    height:50px;
+    grid-column-start:2;
+    border-radius:3px;
+    background-color:#695CFE;
+    border:0px solid white;
+    transition:all 0.3s ease;
+    margin-left:50px;
+}
+body.dark .addBot-btn{
+    color:white;
+    background-color:blueviolet
+}
+body.dark .addBot-btn:hover{
+    background-color: #695CFE;
+}
+.addBot-btn:hover{
+background-color:blueviolet
+
+}
+.div-div-texts{
+margin-top:15%;
+right:40%;
+max-width:30%;
+}
+.div-texts{
+    display:grid;
+    margin:30px;
+    margin-left:30%;
+    grid-gap:20px;
+}
+
+@media screen and (max-width: 768px){
+    .div-div-texts{
+        position:fixed;
+        top:9%;
+        right:60%;
+    }
+    .div-texts{
+        margin-left:60px;
+        margin-top:30%;
+    }
+    textarea,body.dark textarea, textarea, body.dark input, input{
+        width:300px;
+    }
+    textarea{
+    height:120px;
+    }
+        .addBot-btn{
+            width:200px;
+        }
+    section div.title{
+         margin-top:20px;
+         position:fixed;
+         width:100%;
+        }
+        section div.title p{
+            width:100%;
+            font-size:70px;
+            margin-left:240px;
+        }
+    section.home{
+        position:fixed;
+        
+    }
+    .sidebar header .toggle{display:none;}
+}
+
+

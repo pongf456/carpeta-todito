@@ -1,0 +1,65 @@
+{
+    "Apollo": {
+        "nombre": "Apollo",
+        "descripcion": " te va a permitir programar eventos y mensajes en tu servidor. Con \u00e9l, puedes crear un evento y hacer que se muestre el anuncio dentro del canal, de manera que los usuarios que lo vean puedan pulsar un bot\u00f3n para decir que van a acudir o para decir que no est\u00e1n seguros.",
+        "link": "https:\/\/apollo.fyi\/",
+        "creador": "admin",
+        "imagen": "img\/apollo.png"
+    },
+    "Arcane": {
+        "nombre": "Arcane",
+        "descripcion": "un bot dise\u00f1ado para ayudarte a moderar canales. Esto quiere decir que detectar\u00e1 y eliminar\u00e1 textos que contengan spam o palabras malsonantes que hayas configurado, pudiendo avisar a los usuarios, expulsarlos o directamente banearlos para que no puedan volver a entrar durante un tiempo determinado.",
+        "link": "https:\/\/arcane.bot\/",
+        "creador": "admin",
+        "imagen": "img\/arcane.png"
+    },
+    "Ayana": {
+        "nombre": "Ayana",
+        "descripcion": "para quienes busquen un bot vers\u00e1til capaz de cumplir con sus necesidades de moderaci\u00f3n, entretenimiento y m\u00fasica. Uno de sus alicientes es que est\u00e1 traducido al espa\u00f1ol, lo que ayudar\u00e1 mucho a los usuarios menos versados en el ingl\u00e9s.",
+        "link": "https:\/\/ayana.io\/pro",
+        "creador": "admin",
+        "imagen": "img\/ayana.jpg"
+    },
+    "Dyno": {
+        "nombre": "Dyno",
+        "descripcion": "busca ofrecerte una amplia cantidad de funciones en un mismo bot. Todo ello, te lo ofrece con un panel de control en el que puedes configurar todas las funciones que tengas activadas o los comandos que quieras personalizar. El bot cuenta con funciones de moderaci\u00f3n y otras muchas m\u00e1s.",
+        "link": "https:\/\/dyno.gg\/bot",
+        "creador": "PongfZT",
+        "imagen": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxANERMQEBEVEBAPEhASERERFQ8QFQ8RFhEWFhUVExcYHCggGBolGxUWJTEhMSkrMC4uFx8zODMsNygtLisBCgoKDg0OGxAQGy0iICUvLS0wMzAtLS0tMS0uKy0tLS4yLS0tLS0rKystLS0tLS0tLS0tNy0tLTUtLS0tLS0tLf\/AABEIAOEA4QMBIgACEQEDEQH\/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgcBAwUGBP\/EADYQAAICAAQEBAQEBgIDAAAAAAABAgMEBhFRBRIhQRMiMWFScZGxIzJiwTNCQ6HC0QeBFHLw\/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIDBQYEAf\/EAC0RAAICAQIDBgYDAQAAAAAAAAACAQMEERIhMUFRYbHh8PETIjJxgcGRodFi\/9oADAMBAAIRAxEAPwD5GzGr3MsHWnNmNXuNXuZABjV7jV7mQAY1e41e5kAGNXuNXuZABjV7jV7mQAY1e41e5kAGNXuNXuZABjV7jV7mQAY1e41e5kAGNXuNXuZABjV7jV7mQAY1e41e5kAGNXuNWZIgG\/6\/VmTAIEtDUwGCZEAAAAAAAAAAAAAAAAEQCQMamQAAAAAAAAAAAAAAAARJEQDeACBI1MBgmRAAAAAAAAAAAAAAAOjwHgtuPs8OvpFdZ2P0gv3fsWbwvK2EwqWlasn3nZpJt\/ZfI+TImPw1mHVdMVXOtfiQb1cn8evdP+3oepMHMybJeU4rEev7NjFx0VIbnMnw4jhWHtXLOmuS25Ynhs1ZL8JO7C6uC6zqfVxW8H3XsWODz05NlU6rP46F9tCWRpMfkoMHu855S05sTho9PW2pdt5Q\/dHhDoabluXcvsYltTVttYAAtKwAAAAAAAAARJEQDeACBI1MBgmRAAAAAAAAAAB0OCcFux0+SpdF+ab\/ACwXv\/oizQsSzTpB9hZadI5nPBYMP+OocvXES5t1COmvy1PLZhy5dw9pz0nXJ6RnHXTXZ7Mory6bG2rPH+C18exI3NHA5uBxlmGsjbVLlnB6p\/dNd09i2ss5gr4hXqvLbBLxK9veO8SnzfgMbZhrI21S5ZwfR77prunsfMrFW9eyY5T66EsfImqe7rH+d5eoOJlrj1fEK9V5bY6eJX8L3W8Wds550ZGlWjSTaVoaNY5ArzOmU+XmxOGj0fWytdt5QW26LDBZRe1Lbl9yFtS2rtYoMHuM6ZT5ObE4aPl6ytrXbeUFtujw50VNyWruX2MS2pq22sAAWlYAAAAAAIkiIBvABAkamAwTIgAAAAAAA6HA+D2461V1rRLrOb9IR3fv7EWaFjdPCD6sS06RzM8C4NbjrPDrWiWjnN+kI7v39i3eE8MqwdaqqWiXq+85d5Se5Hg\/C6sFUqqlol+aXecu8pe50DAy8ubp0j6YNnGxoqjWeYPnxeFhdCVdkVOE1pKL7o+gHjPUU\/mrLs+Hz1WsqJvyT2fwy9\/ucMvPG4Ou+EqrYqcJrRp\/f2fuVPmjL0+Hz7ypm34c\/f15Zfq0+uhu4WZ8X5H+rx8zHysb4fzLy8PI5fD8dZhrI21S5Zx+jXdNd0y28ucfr4hXzR8tkdPEr7xe63j7lOn0cOx9mFsjbVLlnH6Nd090W5WKty\/9dJ\/X2IY+RNU93rjBegONlzj1ePr5o+WyOniV94vdbr3Oyc+yskyrRpJsq0NGscgVznPKXh82Iw0fJ1lZXH+XeUF8Pt2+RYwLKL2pbcv5jt9dpC2pbV2sUCSPZ50yp4XNicPH8Pq7a1\/T3lFfDuu3yPGHRU3Lau5TEsrattrAAFpWAAACJIiAbwAQJGpgMEyIAAAIkj7uC8Itx1qqqXvOb9K47v8A13PjNCxrPI+xEzOkGeB8ItxtqrrXT1nN+lcd3\/ot3g3CasFUqql09ZSfrOXdscF4TVgqlVUveUn6zluzoHP5eXN06RwX1xk2cbGiqNZ5gAHjPUAAAD5sbgq8RXKqyKlCa0af7bM+kDvgFOZny\/Ph9mnWVM2\/Ds\/xltL7\/U4xeWOwdeIrlXbFShJdU\/utmVLmfgFnD7NHrKmf8Ozf9MtpL+5vYeZ8X5X+rx8+3+THysX4c7l+nw8jn8Nx9mFsjbVLlnH6SXdPdFt5d45Xj6+aPlsjorK+8Xv7p7lOH08M4jbhLFbVLllH6SXdSXdFmVixcv8A1HKf1JDHyJqnun1qXmDkZd45Xj6+ePlnHRWV94P917nXOfZWWZVo0k2laGjWOMGNCts6ZV8HXE4eP4frZXFfw\/1RXw77fIsow1qW0XtS25fzHaV3Urau2ShAexzplR064jDx1qfWyC\/pfqS+H7fL08cdDVatq7lMSytq22sAAWlYIkiIBvABAkamAwTIgAwlqAffwbhVuMtVVS95SfpXH4pFu8E4TVgqlVUveUn6zluz5srcKjg8PCKXnmlKx93Jr7I7Rz+ZlTa22Ppj++\/\/AA2cXHiuNZ5z\/XcAAeI9YAAAAAAAAAPl4hgq8TXKq2PNCS6r91sz6gfYmYnWBz4SU1mTgFnD7NH5qpP8Ozs1tLaSOQXhxPAwxVUqrFrGa0\/9X2a90UjiKnXOUH6wlKL+aehv4WVNy6NzgxcrHipuHKT6OF8RtwlitqlpJeq7SXdSXdFu8A4xXj6VbDo\/ScH6wl3Xy2ZTB6n\/AI5xrrxfh\/y3Qkmv1R6p\/TUjn0Q9cvHOPA+4d0o8L0nxLTABgmyRa16Pqn23K0zvlf8A8dvEUL8GT88V\/Sk+6\/S\/7Fmnz4zDxurnXJaxnGUWvmi\/Hval90cuv2Kb6YtXbP4KLBsxmHdNk636wk4v\/pms6YwQRJEQDeACBI1MBgmRBiL0eu3UyAC6Mu8Sji8PXYn10UZr4Zro0zqFLZf43bgbOeHmhLRWV9pr9nsy3OGcQrxdcbapc0ZfWL7prsznsvFmltY+meX+G3jZEWrpPOD7QAeM9IAAAAAAAAAANOIxEKoynOSjCK1lJ+iQBHG4qFFcrZvSME5N\/Io\/FXeJOc3\/ADylL6ts7ma8yzx8+WOsMPB+SPeb+Kf+ux5038HGmlZluc\/0Y2XfFsxC8oJHp\/8AjvCOzGKf8tMJSb95LlS\/u\/oefwGCsxNkaqo805ei292+yLcy3wSGAp5E+acutk\/il7eyGdetdcp1n1qMOmXeG6QdkAGAbINWItVcZTfRRi5N+yWptK8z3mdSTwlD1XpdNd9P5I\/u\/wDouopa59q+xVdbFS7p9SeM4hifGtnZ6eJOUvqzSAdNEacIMDmCJIifQbwAQJGpgMEyIAAAOpl7jluBs5oeauWniV9prdbSXZnLBFlho2txg+q0rOscy8OG4+vFVxtqfNGX1T7prs0fYUzlzj1mAs5o+auWniV9pLdbSRbfDsdXiq1bVLmhL6p9012Zz2VitQ3avb+vubWPkRbHf64wfWADynpAAAABqvujXFzm1GMU3KT6JIAX3xqi5zkoxitXJ9EkVTm3Ms8dPkg3HDwflj6Ox\/FL9l2M5tzLLHT5INxw8H5Y+niP4pfsjzpuYWF8P53+rw8\/AycrK3\/IvLx8gbsDgrMRZGqqPNOXov3eyMYLCWYicaq4805vRJfd7ItnLGXq8BX2ldNfiWf4x2iv7l+VlLQvbM8o9dCnHx5tnu6mcs5fhw+vT81s0vEs3fwx2ijugHPO7O0s06zJtKsLG2OQAPB52zXy82Gw0vN6W2R\/l3hF77vsTppa19qkbbVrXcxHOmbNObDYaXX0ttXbeEPfdngQDoqKVpXavuYdtrWNuYAAuKwRJEQDeACBI1MBgmRAAAAAAB18t8es4fZzLzVS08Sv4lutpI5AIuiusq0axJJWlZ1jmXjw\/G14muNtUuaEl0f3TXZn1lN5a4\/Zw+zVeaqTXiV7+8dpFtYDG14iuNtUuaEl0f7PZnPZWK1DdsTyn11NrHyItjv6n1AGq62NcXOTUYxTcpN6KKXq2zynoF90a4uc2oxim5SfRJLcqvN2ZpY6Xh16xw8H0Xo7H8UvbZGc35mljZeHW3HDxfRejta9JS9tkeZNvCw\/h\/O\/1dO7z8PvyycrK3\/InLx8iRtweFnfONVcXKc3okvu9kYwuFnfONdcXOc3okv\/AL0LYytl2GAhq9JXzXnnt+mOy+56MrJWhe\/pH7+xRRRNs9xnK+Xa8BDtK6a\/Es\/xjtH7nfAOed2dpZp1mTbVYSNq8gAeGznmzw+bDYaX4nWNlkX\/AA94xfxe\/b5k6aXtbavsRttWtdzEc65q5ObC4aXn6xtsi\/ybxi\/i3fb5lfESR0VFC0ptX3MS21rW3SAAXFQAAAIkiIBvABAkamAwTIgAAAAAAAAA6+XcwW8Pm3Hz1y\/PW30futmcgEXRXja0awSVpWdY5lmwz\/hHHVxsUvh5Yvr89TyWaM02Y\/yJeHQnrya6ubXo5\/6PPg89WFVW25Y49\/EusyrHXbPIGzDYed0411xcpTekYruMNh53TjXXFylN6Riu7LXyrluGAhzS0lfNeeey+GPt9z7k5K0Lx4z0j10PmPRNs93UzlXLkMBDV6Svmlzz2\/THZfc9AAc67s7SzTrJtokJG1eQAPE5yzX4PNhsPL8X0ssX9L9Kfxfb5k6amtbapGyxa13MYznmzwebDYeX4vVWWR\/pbxi\/i+3zK6DYOhooWldq+5iXXNa2rAAF5UAAAAAACJIiAbwAQJGpgMEyIAAAAAAAAAAAAAABaWR+DU0UxvjKNtli62L0ivgjt7nqincsZis4fPvOmT89f+Udn9y0uGcYoxceaqyMt466Sj7Si+qOfzaLEeXbjE9f13Gzi3IyQq8Jjp+zoA12WxitZSUVu2keKzTnSEIunCS55vpK1flgtoPu\/f0X289NL2ttSP8AC+y1a41Y2ZyzYqNcPh3rd6TmvSr2X6vsVu3r1fVv+4k2+r6t9W33Zk6GihaV2r7mJdc1raz7AAF5UAAAAAAAAACJIiAbwAQJGpgMEyIAAAAAAAAAAAAAAAMxk09U2nuujMAAnZfOfSU5SW0pSl92aiQAAAAAAAAAAAAAAAABEkRAN4AIEjUwYZgmRJAiACQIgAkCIAJAiACQIgAkCIAJAiACQIgAkCIAJAiACQIgAkCIAJEQADeBqCOh91JP1AB8PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMMAA2gAiSP\/9k="
+    },
+    "EPIC RPG": {
+        "nombre": "EPIC RPG",
+        "descripcion": "Si en vuestro servidor sois amantes de los antiguos RPG basados en texto, este bot os va a encantar. Porque es precisamente eso, un bot para jugar a partidas de rol en el que tienes que decirle lo que vas a hacer utilizando los comandos que tiene.",
+        "link": "https:\/\/bots.ondiscord.xyz\/bots\/555955826880413696",
+        "creador": "PongfZT",
+        "imagen": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAA\/FBMVEX\/\/\/9VrO4iZpnM1t2aqrQpLzPL1dxndX\/P2eAhZZlSq+\/S3eTz8\/P7+\/vL1dvp6enQ0dLDzNJ3nru6xs6rsbTF1N6pv89msuxer+3W2Nmxub8lKi02PkMub5+6vL6lp6jFysy7wcXLzM22zuCaxOR0t+p\/u+iRwea7zNg4dqSqyuJJgaxli6eTs8qGnKopZ5VaZm9DTFJOl85fkLVxm7k2cJqds8NkhJtDe6WRqLhWg6N2kaN\/nbNrtOujtsM\/eqZHdZeJrcdzpclIZnyaoadcpdpbmMRkgpd3hIxJYXFbcoFTdY0gTW9PWmEvXH0\/SE4rPUouPko4UGFLjb3AEfk+AAAHaUlEQVR4nO2bC1faSBTHJYE4EQivoDwkJoiKovLS1bW1pXWxrS5rH9\/\/u+y8EibJJJkJ0HP2LP+e0wfW\/n+5986dR6Y7O1tttdVWW2211VZb\/RdVKHXLR6ZlOhUAKo5pWkfdbqnwO4zLpmPblu1oah4gqVDo13xe1RzDtG3bbG4IpFBumk5NI7aapoZkaCr5IgxJt1xar3nXzFdAHhqHfcOCIHlQA5a1JojykVEB0d4aEpcCQpjd4oqP3mypGtfcUNV6\/xhqH6rfR35q8O\/BD7WKUy6ndi+ZRh5wzOsXvdOTg0YmswelY3XOB9PqVb8Og+HnhdVqWKnqsmzChzL8zse904NMBhlnPClL6Tr8qTOt7mv+aMDgtGTDUIQDzffs9Yuz00aGMeYAeCCdAYyGBtiEaY5cNZRZ+\/rFCdc7CoAEozO4qjNPAJpSAM285957jDSPBiAUynm17wGYUgAmATg+O4jxTgLA6txcgRQAFvqm+kmSuwAAzMZHHAYg41+soBK4iAu9EICuDy+vFf0KjceKTBWWDARwJuAfWwO3l39Uane6XkUAhkxnLuO0rQhw\/6cB1Fr2VtFv0L+Wl2kFZBCIlEDUMBw+1NBDVLLZoaIM0G\/zMuPQxBFopAYYvq\/jHl7LZt\/B9tiRHgYEQMSfBzCr1sjYh\/7ZGfoETlZyABXcgtIB6DO3iSL\/a\/zRPvrIlgDAJXAsMgqDAPrsA2D8s3f4UzwMHIk50RBuAwGA4Xuv+WN\/VIKQSnYcFmrCbcAPMPvg+VewPypBhY5D0BUGaOJ1wKksgH6pBZ4\/O8MA0uOwi9P4KAkw\/ACC\/iQAivJRFgAXYeJE6AcY1tRA\/LOwCxLhRpAXT8ERAtaE\/D2AGeNPn5+MQSy0NAFHwgBkMpYB0B+MUP5pE8JfRhMysIQBcCMUawMZWn71cPyzd7oHsC\/XCqUBHtRw\/GkPSAVgq8J9CAHoVxrP30uAQpYkqiMMgNvAhZB\/xj\/8Gf9rnQH4hHMjDIBHYU80ApeA588kAAoDCK8Ki44hAXBrcP3f6SxAVQqg0MIAYil4qHP973xzBAYwWqLToQxAo8YZ\/1Adn78uB0BTIASwz31+rwezABILc\/Ei\/BSaf7AelIBwDeRF\/ckwjAN4\/jzBv845\/c\/XAn3D0BAGSGpET+12boAKoM99\/nfB55duRAmteNrOQd2zBcD6X4f8U84FkQGY5rDuT\/jPP1wTQPR03BgTgr+4z8\/xp9OxOMBRwsZoTgBypkj+sTQ5gHLSkmz+g4mBgP+55JqwjB8sbm\/6vMwC6\/+FF39FflVcqCTuC7wsxPYftwTIvkBify6wM3o5JARfl+V3G+FPO7EmcUKBa6AfY994He0GCLjlTwFQI5Q6KUzcnn\/L5ai\/S\/Aa7U\/bQEvcP2kcNl5yrCDB9SzY\/ll1JEehuzWKHAav4\/Ghj+Au5vGVNEc08YdUr7tIoyVE++9Yf70qOwjizwlfdpcaUYRYghTnhDuWGjUbNF7Hi1GY4J84AHxCI74cwQCRRfAFzcWHh28L7P\/1cUgS8T2mCOVr0J0NOEXA1v\/hePSYUYb494tONMAUVRSwpQAK+JwsvCT4MlqMlwTfJ2hjMkQz08+4DOAlm+RrG5N7SELqf3fxRuKOPlIQweJHZBumU6HE3pyIk4PG5GnEDoBvGQoAsxzXhgYpMrCzU8IzMrMubDy9tVHalwCTJUCcyIpYGqDoqL4cTMbL0hujQLzQLyQCnON\/qCX9BtMG7OagkfPrcDwXBEgZADcEBg3BLADww0tNEkCnjttgileXDgqBQU4rG4cB\/4kwAG4CquwYQCI5IO140mbtx2\/M2EgC6KfMAMxBC1dPLwzwbSIOQAIg+dqUqkBCgJYlv1iANuufAIArQOaY2hcCMhJRM5r7KkACYJUAuFWABsLeE+P\/MyMMQAKQt9P5wwmBtEOYhAkD8LwnDEC2z8JHMyGRfoxfHNx7\/q97whH4iL8drHCXxCJ1iHaJcDvYhj8WvwLrtBj\/c3J+Yaf3p8sC2gzmzw\/P80xQSQkw0jRBJgSGNxIiFO2PN4SqlqYJMjKWZSAJMFBXTgBSgfTD6E1KZAGQ71stAUglchKoRb3Cii9AVe7mCFekHZGhIAzQ6WtrSQCWFUvA9ycn2JJ7gSgVTUrArQNu\/dH4myveJHNVILMSvxI5\/vc0\/jJvq+NVpHXAOz8O+0\/pX5bbjcarQOuA8yIp5F+l4bLXerPSrYNwIUSkH6wr\/x6BRW+XaWdxAFNyudEA1vpvltruy1l\/EBh3emUK3VWw1vz8lIBmV+0d8ADO3eyrhr0B+x00HN37lcbykpvXe25cd2Cv90oto6K1fEV22thjADrTuvf2aCPhd1VqeZdMNZIIbP\/JtddAaw3TT5yKjrF8UXb22IAA9zfeu0tgpF2ByyCYqodg1HvV\/hIov4HBx1PTCty2peG3ypt\/fKpyy\/BfOIZ\/cDac\/CCCyV7bBZqT+v50ahWsCr7erwFQMX9P7oMqWjb6Dw72byq9CIaNtp2tttpqq\/+H\/gUI4LY52V7i7gAAAABJRU5ErkJggg=="
+    },
+    "Hangman": {
+        "nombre": "Hangman",
+        "descripcion": "Este es un bot para jugar al ahorcado en tu servidor, y sirve para partidas de un solo jugador o partidas entre varios usuarios. Tiene soporte para mensajes privados, y puedes jugar con tus amigos para ver qui\u00e9n de los dos soluciona antes la palabra.",
+        "link": "https:\/\/bots.ondiscord.xyz\/bots\/371789181954818050",
+        "creador": "PongfZT",
+        "imagen": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcRGhM7kDDaSC5S1fjqDjv3ocFoyf9vJ5JK2QA&usqp=CAU"
+    },
+    "asd": {
+        "creador": "PongfZT",
+        "nombre": "asd",
+        "descripcion": "asd",
+        "link": "asd",
+        "imagen": "asd"
+    },
+    "asdas": {
+        "creador": "PongfZT",
+        "nombre": "asdas",
+        "descripcion": "asd",
+        "link": "asdas",
+        "imagen": "asd"
+    },
+    "asdasas": {
+        "creador": "PongfZT",
+        "nombre": "asdasas",
+        "descripcion": "asd",
+        "link": "asdas",
+        "imagen": "asd"
+    }
+}

@@ -1,0 +1,129 @@
+﻿body {
+    background-color: #1c62bd;
+    padding: 0;
+    margin: 0;
+}
+
+.texto {
+    top: -36px;
+    box-sizing: border-box;
+    background-color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom:solid 3px brown;
+    position: fixed;
+    
+    transition: top 1s;
+    min-width: 220px;
+    width: 20%;
+    padding: 10px;
+    height: 40px;
+}
+.texto:hover {
+    top: 0;
+}
+.tab {
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+    border-inline-width: 10px;
+    border-color: black;
+    }
+.tab:focus {
+ outline: none;
+ border-color: brown;
+    }
+.busc {
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+
+}
+.secciones {
+    text-align: center;
+    margin: 50px 20% 0;
+    border-bottom:solid 3px brown;
+    font-size: 300%;
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contend {
+    margin: 10%  4% 10% 10%;
+    position: relative;
+    background-image: url("pngegg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 12%;
+    height: 200px;
+    border-radius: 30%;
+    min-width: 150px;
+    text-align: center;
+    border: solid 2px black;
+    background-color: rgba(139, 177, 128, 0.568);
+}
+.txd {
+    font-size: 150%;
+    display: inline-block;
+    width: 90%;
+    border-radius: 6px;
+    height: 15%;
+    background-color:rgb(69, 197, 69) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25% 0 10%;
+}
+.prd {
+    font-size: 220%;
+    width: 70%;
+    display: inline-block;
+    color: red;
+    font-family: monospace;
+    margin: 18% 0 20%;
+    border-bottom: solid 2px black;
+    border-right: solid 2px black;
+}
+.contenE {
+    margin: 10%  4% 10% 10%;
+    background-image: url("euro.png");
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 12%;
+    height: 200px;
+    border-radius: 30%;
+    min-width: 150px;
+    text-align: center;
+    border: solid 2px black;
+    background-color: rgba(242, 243, 174, 0.568);
+}
+.txe {
+    font-size: 150%;
+    display: inline-block;
+    width: 90%;
+    border-radius: 6px;
+    height: 15%;
+    background-color:rgb(236, 240, 34) ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25% 0 10%;
+}
+.pre {
+    font-size: 220%;
+    width: 70%;
+    display: inline-block;
+    color: red;
+    font-family: monospace;
+    margin: 18% 0 20%;
+    border-bottom: solid 2px black;
+    border-right: solid 2px black;
+}
+@media screen and (max-width: 600px ) {
+    .texto {
+        min-width:200px;
+        width: 90%;
+    }
+}

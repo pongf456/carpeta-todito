@@ -1,0 +1,108 @@
+﻿body {
+    background-image: url(fondo.jpg);
+}
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 200%;
+}
+.formulario {
+    margin: 3% 30%;
+    display: inline-block;
+    width: 40%;
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 1px 3px 5px rgb(56, 56, 92);
+    border: solid 2px rgb(66, 103, 128);
+    box-sizing: border-box;
+    text-align: center;
+    transition-property: border-radius box-shadow;
+    transition-duration: .4s;
+    background-image: linear-gradient(to left, #a4b9cf 0%, #7d9bce 100%);
+    padding: 1%;
+}
+.formulario:hover {
+    border-radius: 20px;
+    box-shadow: 3px 6px 10px rgb(81, 81, 143);
+}
+.name {
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cbd8e7;
+    border: solid 3px brown;
+    margin:  5% 20%;
+    text-align: center;
+}
+.coment {
+    color: brown;
+    background-color: #cbd8e7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5% 20%;
+    width: 60%; 
+    border-radius: 10px;
+    border: solid 3px brown;
+    height: 150px;
+}
+.enviar {
+    border: solid 2px brown;
+    background-image: linear-gradient(to left, rgb(76, 97, 131), rgb(103, 160, 212));
+    width: 100px;
+    margin: 5% 20% 0;
+}
+.recientes {
+    border: solid 3px brown;
+    width: 30%;
+    text-align: center;
+    overflow-y: scroll;
+    background-color:#cbd8e7 ;
+    height: 80px;
+}
+.nm {
+    background-color:#a2b6ce ;
+    font-size: 120%;
+    font-family: monospace;
+}
+@media screen and (max-width:600px) {
+    .formulario {
+        margin: 3% 9%;
+    display: inline-block;
+    width: 80%;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0;
+    }
+    .coment {
+        color: brown;
+        background-color: #cbd8e7;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 70%;
+        box-sizing: border-box;
+        padding: 0;
+        text-align: center;
+        margin: 5% 20%;
+        width: 60%; 
+        border-radius: 10px;
+        border: solid 3px brown;
+        height: 150px;
+    }
+    .recientes {
+        margin: 0 15%;
+        width: 70%;
+        text-align: center;
+        overflow-y: scroll;
+        background-color:#cbd8e7 ;
+        height: 100px;
+    }
+    .nm {
+        background-color:#a2b6ce ;
+        font-size: 120%;
+        font-family: monospace;
+    }
+}

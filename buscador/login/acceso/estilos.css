@@ -1,0 +1,93 @@
+﻿body {
+    background-image: url('fondodp.jpg') ;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+p {
+    display:inline-block;
+    margin: 10px  20% 10px 5%;
+    padding: 1%;
+    border-radius: 10%;
+    white-space: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(142, 215, 238);
+}
+.usur {
+    background-color: rgb(188, 222, 250);
+    padding: 1.5% 1%;
+    box-sizing: content-box;
+    font-family: monospace;
+    border-radius: 20%;
+    margin: 10px 0 10px 0;
+    font-size: 140%;
+
+}
+.mensajeria{
+    display:inline-block;
+    width: 100%;
+    min-width: 500px;
+    border-radius: 10px;
+    background-image:linear-gradient(to left,#839488 ,#5f8f76);
+    height: 600px;
+}
+.mensajes {
+    border-top-left-radius: 15%;
+    font-size: 140%;
+    border-bottom: inset 3px brown;
+    font-family: monospace;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    display: inline-block;
+    margin: 2% 5%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 1% 4%;
+    height: 70%;
+    background-image:linear-gradient(to bottom, #90a7bba8, #234b55);
+}
+
+.bde {
+    display: inline-block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0 5% 1%;
+    padding: 2%;
+    height:20% ;
+    background-image:linear-gradient(to right, #2a292c, #331c1c, #0e0d0d);
+}
+.mae {
+    background-color: #565a5d;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgb(71, 44, 44);
+    border-color: rgb(0, 0, 0);
+    font-family: cursive;
+    width: 50%;
+    margin:  0 2%;
+    height: 100%;
+}
+.mae::placeholder {
+    font-size: 120%;
+    color:white;
+    text-decoration: underline;
+}
+
+.mae:focus {
+    outline: none;
+}
+.br {
+    background-color: crimson;
+    color: white;
+}
+.enviar {
+    background-color:#a8cdf0 ;
+    border-radius: 20%;
+    font-family: cursive;
+    border-color: rgb(158, 184, 233);
+}

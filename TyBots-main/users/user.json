@@ -1,0 +1,31 @@
+{
+    "PongfZT": {
+        "user": "PongfZT",
+        "password": "werty456",
+        "email": "adonayyeidersonparedes@gmail.com",
+        "id": "#8873298",
+        "bots": {
+            "asd": {
+                "creador": "PongfZT",
+                "nombre": "asd",
+                "descripcion": "asd",
+                "link": "asd",
+                "imagen": "asd"
+            },
+            "asdas": {
+                "creador": "PongfZT",
+                "nombre": "asdas",
+                "descripcion": "asd",
+                "link": "asdas",
+                "imagen": "asd"
+            },
+            "asdasas": {
+                "creador": "PongfZT",
+                "nombre": "asdasas",
+                "descripcion": "asd",
+                "link": "asdas",
+                "imagen": "asd"
+            }
+        }
+    }
+}

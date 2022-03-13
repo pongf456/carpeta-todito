@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/sideBar.css">
+    <link rel="stylesheet" href='css/style.css'>
+
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--<title>TyBots</title>-->
+</head>
+
+<body>
+    
+<div id="menu-btn-container">
+    <img id='icon-menu'class="icon menu-btn" src="./assets/menu-regular-24.png"alt='no se encuentra'>
+  </div>
+ <div class='container-close'id="menu-container">
+      
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+              <img src="logo.png" alt="">
+            </span>
+     
+                    <div class="text logo-text">
+                        <span class="name">TyBots</span>
+                        <span class="profession">Profesional bots</span>
+                    </div>
+                </div>
+     
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+     
+            <div class="menu-bar">
+                <div class="menu">
+                        <ul class="menu-links">
+                            <li class="nav-link">
+                                <a href="index.html">
+                                    <i class='bx bx-home-alt icon'></i>
+                                    <span class="text nav-text">Dashboard</span>
+                                </a>
+                            </li>
+        
+                            <li class="nav-link">
+                                <a href="topBots.html">
+                                    <i class='bx bx-bar-chart-alt-2 icon'></i>
+                                    <span class="text nav-text">Top-bots</span>
+                                </a>
+                            </li>
+        
+                            <li class="nav-link">
+                                <a href="#">
+                                    <i class='bx bx-bell icon'></i>
+                                    <span class="text nav-text">Notifications</span>
+                                </a>
+                            </li>
+        
+        
+        
+                            <li class="nav-link">
+                                <a href="#">
+                                    <i class='bx bx-heart icon'></i>
+                                    <span class="text nav-text">Likes</span>
+                                </a>
+                            </li>
+        
+                            <li class="nav-link">
+                                <a href="addBot/addBot.html">
+                                    <i class='bx bxs-add-to-queue icon'></i>
+                                    <span class="text nav-text" id='add-bot'>Add-bot</span>
+                                </a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#" id="config-btn">
+                                    <i class='bx bx-cog icon'></i>
+                                    <span class="text nav-text">Configuration</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                </div>
+     
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="../index.php">
+                            <i class='bx bx-log-out icon'></i>
+                            <span class="text nav-text">Logout</span>
+                        </a>
+                    </li>
+     
+                    <li class="mode">
+                        <div class="sun-moon">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Dark mode</span>
+     
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+     
+                </div>
+            </div>
+     
+        </nav>
+     
+ </div>
+        <div class="text">Data user</div>
+         <div class="continer">
+             <div class="date-user"><p class="email">Undefined</p><input class="rename-e" placeholder="Rename"></div>
+             <div class="date-user"><p class="user">Undefined</p><input class="rename-n" placeholder="Rename"></div>
+             <div class="date-user"><p class="password">Undefined</p><input class="rename-p" placeholder="Rename"></div>
+             <div class="date-user"><p class="id">Undefined</p><input class="rename-i" placeholder="Rename"></div>
+             
+         </div>
+         <input type="button" class="save-cnf" value="Save Changes">
+         <div class="continer" id="bts-l">
+             <p class="title-bots">Bots subidos</p>
+             <p class="tot-b"></p>
+         </div>
+    <script src="js/sideBar.js"></script>
+    <script>
+        let name = document.querySelector(".user")
+        let email = document.querySelector(".email")
+        let totalB = document.querySelector(".tot-b")
+        let password = document.querySelector(".password")
+        let contB = document.querySelector("#bts-l")
+        let id = document.querySelector(".id")
+        fetch('../users/user.json')
+        .then(res => res.json())
+        .then(re => {
+            if (sessionStorage.getItem("user") != undefined) {
+                let user = re[sessionStorage.getItem("user")];
+                console.log(user)
+                name.innerHTML = user["user"]
+                password.innerHTML = user["password"]
+                email.innerHTML = user["email"]
+                id.innerHTML = user["id"]
+                var nbt = 0;
+                for(const i in user["bots"]) {
+                    nbt++;
+                    console.log(nbt)
+                    totalB.innerHTML = `Total_Posted_${nbt}`
+                    contB.innerHTML += `<p class = 'bota'>${user['bots'][i]['nombre']}</p> <input type = "button" class = 'eliminarb'>`
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
